@@ -8,7 +8,11 @@ gem 'rails', '3.0.0.beta4'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'haml'
 gem 'mongrel'
+gem 'mongo'
 gem 'mongo_mapper'
+gem 'devise' #, :git => 'git://github.com/plataformatec/devise.git'
+gem 'bson_ext'
+# gem 'activerecord-mongodb-adapter'
 
 # Use unicorn as the web server
 # gem 'unicorn'
